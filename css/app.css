@@ -1,0 +1,75 @@
+h1 {
+    border-bottom: 1px solid gray;
+}
+img.phone {
+    background-color: white;
+    display: none;
+    float: left;
+    height: 400px;
+    margin-right: 3em;
+    margin-bottom: 2em;
+    padding: 2em;
+    width: 400px;
+}
+img.phone.active{
+    display: block;
+}
+ul.phone-thumbs {
+    list-style: none;
+    margin: 0;
+}
+ul.phone-thumbs img {
+    height: 100px;
+    padding: 1em;
+    width: 100px;
+}
+ul.phone-thumbs img:hover {
+    cursor: pointer;
+}
+ul.phone-thumbs li {
+    background-color: white;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 1em;
+}
+ul.specs {
+    clear: both;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul.specs > li{
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+}
+ul.specs > li > span{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+ul.specs dt {
+    font-weight: bold;
+}
+.phone-images {
+    background-color: white;
+    float: left;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+    width: 450px;
+}
+.phones {
+    list-style: none;
+}
+.phones li {
+    clear: both;
+    height: 115px;
+    padding-top: 15px;
+}
+.thumb {
+    float: left;
+    margin: -0.5em 1em 1.5em 0;
+    padding-bottom: 1em;
+    height: 100px;
+    width: 100px;
+}
